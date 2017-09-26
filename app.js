@@ -10,8 +10,8 @@ let app = {
       },
 
       init: function () {
+            app.youtubeSearch('laboratoria')
             $('#buscarBTN').click(app.btnAccion);
-           // $('#imagenes img').click(app.reproducirVideo);
       },
       btnAccion: () => {
             app.youtubeSearch($('#terminoBuscar').val());
